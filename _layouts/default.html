@@ -1,17 +1,16 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-    {% include head.html %}
-    <body class="has-push-menu">
-        {% include svg-icons.html %}
-        {% include header.html %}
-            <section class="content">
-                {{ content }}
-            </section>
-        {% include footer.html %}
-    </body>
-</html>
+<html lang="en-us">
 
+  {% include head.html %}
+
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+
+    {% include sidebar.html %}
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    {% include custom-foot.html %}
+  </body>
+</html>

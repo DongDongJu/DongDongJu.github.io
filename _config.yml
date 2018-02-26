@@ -1,37 +1,37 @@
-# Site Settings
-title: SYSTEMLIFE
-email: commisori28@gmail.com
-description: linux system life
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
-url: "https://dongdongjoo.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-114756867-1"
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# User Settings
-username: DongDongJu
-user_description: fall in love with computer science.
+# Setup
+title:            Hydeout
+tagline:          'A Jekyll theme'
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://fongandrew.github.io/hydeout
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
-# Social Media
-# Remove the item if you don't need it
-github_username: DongDongJu
+author:
+  name:           'Andrew Fong'
+  url:            https://twitter.com/fongandrewc
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-# Plugins
-gems:
-  - jemoji
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-
-# Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+# Custom vars
+version:            3.5.3
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:             https://github.com/fongandrew/hydeout
