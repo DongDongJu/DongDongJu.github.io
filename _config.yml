@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            syslife
 tagline:          'A Jekyll theme'
-description:      '정리못하는 대학원생의 하루정리 일기'
+description:      '정리못하는 대학원생의   하루정리 일기'
 url:              https://dongdongju.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
