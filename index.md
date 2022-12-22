@@ -1,6 +1,4 @@
 ---
-layout: home
-limit: 10
-show_excerpts: true
-entries_layout: list
+# To change the default theme layout see: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
 ---
