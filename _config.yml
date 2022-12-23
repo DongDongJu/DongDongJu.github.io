@@ -10,7 +10,7 @@ name: Dongjoo Seo
 title: Ph.D. Student
 email: dseo3@uci.edu
 # email_title: Email (Email title override)
-phone: +1-949-784-9923
+# phone: +1-949-784-9923
 # phone_title: Phone (Phone title override)
 website: https://dongdongju.github.io/
 # website_title: Web (Website title override)
@@ -52,9 +52,9 @@ googlescholar_username: XYGSJWIAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/dongjooseo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Currently, my research interest is optimizing memory and I/O paths in the operating systems within diverse environments, including Ultra-low latency devices, ZNS, and CXL.
-  Also, I was interested in applying machine learning techniques for multi-layered systems. I am a member of the Dutt Research Group, advised by professor Nikil Dutt. \
-  I am always satisfy to myself when I see something I make, fix, or automate.
+  I am a second-year Ph.D. student at the computer science department of the University of California, Irvine. I am a member of the Dutt Research Group, advised by professor Nikil Dutt. Before starting the long-term journey toward a doctoral degree, I got the B.S. and M.S. degrees at the computer science department of Kookmin University. Currently, my research interest is optimizing memory and I/O paths in the operating systems within diverse environments, including Ultra-low latency devices, ZNS, and CXL. Also, I was interested in applying machine learning techniques for multi-layered systems. 
+  I am always satisfied with myself when I see something I make, fix, or automate.
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
