@@ -63,31 +63,32 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Optimizing polling based I/O completion mechanism
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: 
+          Dealing tradeoff between cpu consumption versus I/O performance
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+         Linux operating system using interrupt-based I/O completion method. However, this completion method includes constant operating overhead. These tiny overheads were not that important overhead in the before the era when the disk device was not that fast, unlike current Ultra-low latency devices. 
+         So, we are working on how we can do better than the current interrupt-based I/O completion methodology using by polling-based one.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Task offloading on multi layer systems
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Task offloading on multi layered systems
+        link: https://github.com/HealthSciTech/Dynamic_iFogSim
+        link_text: Dynamic iFogSim
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
+            icon: fa-solid fa-files
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
+            icon: fa-solid fa-files
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Short overview of the project (optional)
